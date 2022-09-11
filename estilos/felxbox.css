@@ -1,0 +1,23 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-principal-nav {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}

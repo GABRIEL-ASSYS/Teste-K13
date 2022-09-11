@@ -1,0 +1,238 @@
+/* Importando a fonte principal do projeto */
+@font-face {
+    font-family: wght;
+    src: url(../fonte/RedHatText-VariableFont_wght.ttf);
+}
+
+/* Tag html da página */
+html {
+    font-family: wght, sans-serif;
+}
+
+/* Container principal da página */
+.container {
+    width: 94%;
+}
+
+/* Header da página */
+.cabecalho-principal {
+    background-color: #FFF;
+    padding: 10px 0;
+    font-family: wght, sans-serif;
+}
+
+/* Logo do header */
+.cabecalho-principal-titulo {
+    width: 100px;
+    height: 50px;
+}
+
+/* Logo do header, enquanto o mouse estiver por cima */
+.cabecalho-principal-titulo:hover {
+    transform: scale(1.025);
+    transition-duration: 1.25s;
+}
+
+/* Link 'Home' da barra de navegação */
+.cabecalho-principal-nav-link-home {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    text-decoration: none;
+    color: #3360b1;
+    font-weight: bold;
+    text-align: center;
+    transition: .3s;
+    position: relative;
+    margin-right: 10px;
+}
+
+/* Link 'Home' da barra de navegação, enquanto o mouse estiver por cima */
+.cabecalho-principal-nav-link-home:hover {
+    box-shadow: 4px 4px 4px #afafaf;
+    color: #3360b1;
+    background-color: #afafaf;
+    border-radius: 20px;
+}
+
+/* Links 'Sobre a Empresa', 'Projetos' e 'Contato' da barra de navegação */
+.cabecalho-principal-nav-link {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    text-decoration: none;
+    color: #afafaf;
+    font-weight: bold;
+    text-align: center;
+    transition: .3s;
+    position: relative;
+    margin-right: 10px;
+}
+
+/* Links 'Sobre a Empresa', 'Projetos' e 'Contato' da barra de navegação, enquanto o mouse estiver por cima */
+.cabecalho-principal-nav-link:hover {
+    box-shadow: 4px 4px 4px #afafaf;
+    color: #afafaf;
+    background-color: #3360b1;
+    border-radius: 20px;
+}
+
+/* Ícone de lupa na barra de navegação */
+.icone-nav {
+    width: 20px;
+    height: 20px;
+}
+
+/* Main da página */
+.conteudo-principal {
+    background-color: #FFF;
+    padding: 20px 0;
+    font-family: wght, sans-serif;
+}
+
+/* h2 de Sobre a Empresa */
+.subtitulo-sobre {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #3360b1;
+}
+
+/* h2 de Projetos */
+.subtitulo-projetos {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #3360b1;
+}
+
+/* Texto de Sobre a Empresa */
+.descricao-sobre {
+    text-align: justify;
+    font-size: 16px;
+    color: #afafaf;
+}
+
+/* Texto de Projetos */
+.descricao-projetos {
+    text-align: justify;
+    font-size: 16px;
+    color: #afafaf;
+}
+
+/* Div do container Sobre a Empresa */
+.container-sobre {
+    width: 43%;
+}
+
+/* Div do container dos Projetos */
+.container-projetos {
+    width: 43%;
+}
+
+/* Div assinatura */
+.assinatura {
+    margin-right: 12%;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: #3360b1;
+    font-family: wght, sans-serif;
+    border-radius: 10px;
+}
+
+/* Subtítulo de assinatura */
+.assinatura-titulo {
+    padding-top: 5%;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+}
+
+/* Container dos inputs */
+.inputs {
+    padding-bottom: 5%;
+}
+
+/* Inputs do tipo texto e E-mail */
+.input-nome,
+.input-email {
+    outline: 0;
+    border: 1px solid #afafaf;
+    box-sizing: border-box;
+    font-size: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 35%;
+}
+
+/* Labels dos inputs */
+.label-nome,
+.label-email {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #3360b1;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+/* Botão enviar dos inputs de texto e E-mail */
+.botao-enviar {
+    position: absolute;
+    font-size: 15px;
+    padding: 6.5px;
+    margin-bottom: 5px;
+    width: 150px;
+    width: 11%;
+    border-radius: 5px;
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+}
+
+/* Botão enviar dos inputs de texto e E-mail, enquanto o mouse estiver por cima */
+.botao-enviar:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #1B1919;
+    transform: scale(1.025);
+    transition-duration: 1s;
+}
+
+/* Inputs do tipo texto e E-mail, enquanto o mouse estiver por cima */
+.input-nome:hover,
+.input-email:hover {
+    box-shadow: 2px 2px 2px #afafaf;
+    transform: scale(1.025);
+    transition-duration: 1s;
+}
+
+/* Banner inferior */
+.banner-baixo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 30%;
+    margin-left: 7%;
+    width: 1095px;
+    border-radius: 10px;
+}
+
+/* Classe principal do footer */
+.rodape {
+    text-align: center;
+    background: #3360b1;
+    padding: 2%;
+}
+
+/* Título do rodapé */
+.rodape-titulo {
+    color: #FFF;
+    font-weight:  bold;
+    font-family: wght, sans-serif;
+}
